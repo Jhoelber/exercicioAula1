@@ -1,0 +1,85 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   flex-direction: column;
+background-color: #000000;
+color:#c0c0c0;
+}
+
+.ursoPensante{
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.introducao,.conteudoexercicio{
+    font-family: "inter", sans-serif;
+    font-weight: 300;
+    flex-wrap: wrap;
+     width: 800px;
+     
+     font-size: 16px;
+  
+}
+
+
+.aula1{
+    margin-top: 3em;
+    
+}
+.titulos{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.conteudoInterno, .conteudoexercicio{
+    margin-top: 2em;
+    background-color: #3a3a3ac3;
+    padding: 1em;
+    border-radius: 10px;
+   
+}
+.textoExercicio{
+    margin-top: 1em;
+    text-align: center;
+    flex-wrap: wrap;
+    width: 800px;
+    font-family: "Poppins";
+    color: #c0c0c0;
+    font-weight: 400;
+    font-size: 22px;
+}
+
+.alternativas{
+    display: flex;
+    border-radius: 10px;
+    flex-direction: column;
+    background-color: rgb(137, 128, 128);
+    color: rgb(0, 0, 0);
+    padding: 1em;  
+    gap: 1em;
+font-family: "inter";
+font-weight: 400;
+}
+
+
+
+.alternativaA,.alternativaB,.alternativaC,.alternativaD{
+    background-color: rgb(255, 255, 255);
+    padding: 1em;
+    border-radius: 10px;
+}
+
+.irParaOutroLink{
+    text-decoration: none;
+    color: rgb(1, 97, 251);
+}
+
+
+
